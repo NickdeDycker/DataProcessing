@@ -1,0 +1,18 @@
+http://www.digitalattackmap.com/#anim=1&color=0&country=ALL&list=0&time=16742&view=map
+
+2. Line: A relation between 2 objects. Including a direction it shows who attacks who.
+Color: The color of a line shows what type of attack it was.
+
+3. Who is Munzner?
+
+4. They don't specifically treat this type of visualization as a case, but I 
+believe so. The color of the countries are a absolute value, 0 or 1. They say
+it's only not perceptual if this has a scale.
+
+5. It is, because it (Currently) uses one;s own intuition to create
+a good visualization.
+
+6. 
+1. Attacker and receiver clearly shown.
+2. Size of attack shown by the size of a line.
+3. A clear timeline showing when peaks were.
