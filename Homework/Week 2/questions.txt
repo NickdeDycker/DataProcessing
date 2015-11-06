@@ -1,0 +1,15 @@
+Explain the difference between the == operator and the === operator.
+
+- The == operator uses basic data conversion. By definition a empty string ("") or NaN are automatically 
+converted to a False boolean, hence "" == False returns True. The === prevents this kind of data conversion
+and hence "" === False returns False. 
+
+- With closure you return a function within a function. This can prevent you from having to deal with 
+a lot of variables. 
+
+- High order functions simply take functions as input or return them as output, closures are examples of 
+higher order functions
+
+- A querySelector selects the first element it matches in CSS.
+Opening a SVG document:
+var svg = document.querySelector(".svgClass").getSVGDocument();
