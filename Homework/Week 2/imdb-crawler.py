@@ -257,25 +257,15 @@ def scrape_movie_page(dom):
 
     # Get the directors in a string with a semicolon separating
     directors = ''
-    for director in overview.by_tag('div.txt-block')[0]('a'):
-
-        # Try except to prevent the "See more directors..."
-        try:
-            director = director.by_tag('span.itemprop')[0].content
-        except:
-            continue
+    for director in overview.by_tag('div.txt-block'):
+        director = director.by_tag('span.itemprop')[0].content
         directors += director + ';'
     directors = directors[0:-1]
 
     # Get the writers in a string with a semicolon separating
     writers = ''
-    for writer in overview.by_tag('div.txt-block')[1]('a'):
-
-        # Try except to prevent the "See more writers..."
-        try:
-            writer = writer.by_tag('span.itemprop')[0].content
-        except:
-            continue
+    for writer in overview.by_tag('div.txt-block'):
+        writer = writer.by_tag('span.itemprop')[0].content
         writers += writer + ';'
     writers = writers[0:-1]
 

@@ -1,0 +1,8 @@
+- Easy to be distributed, easy to use, no need to write a function yourself (as long as
+it is well documented). Gives structure (not everything in a single file).
+
+- I have not used C, but javascript can "go ahead" while waiting for lines.
+It is possible for line 10 to be read and run before line 9 is processed for example.
+
+- Yes, JSON is basically a JavaScript 'mapping' or 'associative array'? Python dictionary
+equivalent of javascript. 
