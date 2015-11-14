@@ -1,0 +1,36 @@
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.ylabel {
+    font-size: 200%;
+}
+
+.overlay {
+  fill: none;
+  stroke: none;
+  pointer-events: all;
+}
+
+.focusLine {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1px;
+        }
+
+.focusCircle {
+  fill: red;
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>\
+<head>
     <meta charset="UTF-8">
     <title></title>
 </head>
@@ -181,17 +181,7 @@
 
     // Onload function for XMLHTTPRequest.
     function loadData () {
-        console.log(this.responseText);
         var daysToTemp = JSON.parse(this.responseText);
-        /*
-        var stringData = this.responseText.split('\n');
-        stringData.splice(-1,1);
-        for (var n = 0; n < stringData.length; n++) {
-            var singleDay = stringData[n].split(',');
-            days.push(singleDay[0]);
-            temps.push(parseInt(singleDay[1]) / 10);
-        }
-        */
 
         for (var date in daysToTemp) {
             days.push(date);
@@ -278,12 +268,17 @@
         };
     }
 
+    // Draw the crosshair and tooltip depending on a TimeOut.
     function drawCrosshairTooltip (mousePos) {
+
+        // Only draw if within the graph.
         if (mousePos.y >= this.axisY[0] && mousePos.y <= this.axisY[1] &&
                 mousePos.x >= this.axisX[0] && mousePos.x <= this.axisX[1]) {
-            var context1 = this.context1;
+
+            // CLear the crosshair canvas and redraw.
             context1.clearRect(0, 0, canvas1.width, canvas1.height);
             drawCrosshair(mousePos);
+
             clearTimeout(timer);
             timer = setTimeout(function () {
                 drawTooltip(mousePos);
@@ -293,7 +288,7 @@
 
     var days = [];
     var temps = [];
-    var url = "http://127.0.0.1:8080/data.txt";
+    var url = "data.txt";
     var request = new XMLHttpRequest();
     request.addEventListener('load', loadData);
     request.open("GET", url, true);
@@ -308,6 +303,7 @@
         var mousePos = getMousePos(canvas1, evt);
         drawCrosshairTooltip(mousePos);
     }, false);
+
 
 
 </script>

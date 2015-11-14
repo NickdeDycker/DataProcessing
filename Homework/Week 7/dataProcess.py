@@ -29,8 +29,13 @@ def read_data(year, plot=False):
     if plot:  # Default is False, only to check the html/javascript with.
         graph_year(data, year)
 
-    with open('data.txt', 'w') as f:
-        json.dump(data, f, indent=4)
+    response = []
+    for key in data:
+        entry = {'date':key, 'temp':data[key]}
+        response.append(entry)
+
+    with open('data.txt', 'a') as f:
+        json.dump(response, f, indent=4)
 
 
 def graph_year(data, year):
@@ -46,4 +51,4 @@ def graph_year(data, year):
     plt.show()
 
 if __name__ == '__main__':
-    read_data(2014, True)
+    read_data(2014)

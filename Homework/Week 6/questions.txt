@@ -1,0 +1,10 @@
+Select returns the first child it finds
+SelectAll selects all child it can find at the same time.
+
+The d is purely for convention, doesn't really has a meaning attached to it. 
+The i or you can call it anything else, is to represent the order of the elements.
+
+4. 
+
+Selects all child nodes, associate some data (like an array) with your child nodes, then prepare the
+child nodes with data and in the end add each one to your HTML
