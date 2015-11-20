@@ -1,0 +1,16 @@
+Obviously the map.harvard.edu is easier because it only shows the actual university in detail.
+
+For going from A to B I would use Google, since they show bus station, direction of the road and have an actual built-in method for finding the
+shortest route.
+
+For the purpose of visiting HU, I would say the one from harvard because of its simplicity.
+For everyday use probably Google.
+
+
+http://i.stack.imgur.com/rNAVN.png
+
+Objective: Showing the maximum temperature in america
+Audience: Those interested in weather (??)
+
+Good use of a rainbow colormap, the colors can easily be associated with hotter/colder. 
+I wouldn't recommend any other color map.

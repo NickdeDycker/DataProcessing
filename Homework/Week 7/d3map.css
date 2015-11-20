@@ -1,3 +1,12 @@
+#worldMap {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+}
+#graph {
+    position: relative;
+}
+
 body {
   font: 10px sans-serif;
 }
@@ -9,14 +18,14 @@ body {
   shape-rendering: crispEdges;
 }
 
-.x.axis path {
-  display: none;
-}
-
 .line {
   fill: none;
   stroke: steelblue;
-  stroke-width: 1.5px;
+  stroke-width: 2px;
+}
+
+.ylabel {
+    font-size: 200%;
 }
 
 .overlay {
@@ -28,7 +37,7 @@ body {
 .focusLine {
   fill: none;
   stroke: steelblue;
-  stroke-width: 0.5px;
+  stroke-width: 1px;
         }
 
 .focusCircle {

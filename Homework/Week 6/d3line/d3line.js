@@ -130,6 +130,4 @@ d3.json("data.txt", function(error, data) {
             }, 500);
 
       })
-
-
 });

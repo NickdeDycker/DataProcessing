@@ -10,7 +10,7 @@ body {
 }
 
 .line {
-  fill: none;
+  fill: #000000;
   stroke: steelblue;
   stroke-width: 2px;
 }

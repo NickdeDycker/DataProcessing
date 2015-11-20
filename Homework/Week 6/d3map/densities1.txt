@@ -82,7 +82,7 @@
     {
         "iso3": "BGD", 
         "iso2": "BD", 
-        "density": 1106.36
+        "density": 1106.4
     }, 
     {
         "iso3": "BRB", 
@@ -295,11 +295,6 @@
         "density": 96.0
     }, 
     {
-        "iso3": "DOM", 
-        "iso2": "DO", 
-        "density": 197.0
-    }, 
-    {
         "iso3": "ECU", 
         "iso2": "EC", 
         "density": 63.0
@@ -482,7 +477,7 @@
     {
         "iso3": "IND", 
         "iso2": "IN", 
-        "density": 389.26
+        "density": 389.28
     }, 
     {
         "iso3": "IDN", 
@@ -512,7 +507,7 @@
     {
         "iso3": "ISR", 
         "iso2": "IL", 
-        "density": 382.14
+        "density": 382.16
     }, 
     {
         "iso3": "ITA", 
@@ -537,7 +532,7 @@
     {
         "iso3": "JOR", 
         "iso2": "JO", 
-        "density": 76.09
+        "density": 76.1
     }, 
     {
         "iso3": "KAZ", 
@@ -722,7 +717,7 @@
     {
         "iso3": "MAR", 
         "iso2": "MA", 
-        "density": 75.64
+        "density": 75.65
     }, 
     {
         "iso3": "MOZ", 
@@ -807,7 +802,7 @@
     {
         "iso3": "PAK", 
         "iso2": "PK", 
-        "density": 238.05
+        "density": 238.06
     }, 
     {
         "iso3": "PLW", 
@@ -842,7 +837,7 @@
     {
         "iso3": "PHL", 
         "iso2": "PH", 
-        "density": 341.02
+        "density": 341.04
     }, 
     {
         "iso3": "PCN", 

@@ -77,11 +77,12 @@ def get_3letter(countries):
         else:
             print 'MISSING', iso2
 
+    f1 = open("countrycodes.txt", "w")
     # Reformat the data to fit the json.dump function.
     json_d = []
     for i in range(len(iso2_list)):
         json_d.append({'iso2': iso2_list[i], 'iso3': iso3_list[i], 'density': density_list[i]})
-
+        f1.write("{0},{1}\n".format(iso2_list[i], iso3_list[i]))
     with open('densities.txt', 'a') as f:
         json.dump(json_d, f, indent=4)
 
