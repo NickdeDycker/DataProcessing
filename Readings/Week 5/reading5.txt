@@ -1,0 +1,13 @@
+1. if the 0.5 dimension is the distance from you to an object, a3d visualisation would be
+useful when you can't rotate it? How is a 3d (visual-space) visualisation not a 2.5d 
+dimension then?
+
+3. Improves readability, efficiency, performance. Enables animated transitions.
+Generally quicker to write.
+
+4. 4g, the complexity doesn't interfere. but it doesn't serve its purpose (finding 
+a package, but it isn't providing the names easily.)
+
+5. The interactivity mostly adds a extra dimension for data. (time for example, or in case
+of 4g it gives the info itself.) I would prefer 1c over 1a.
+

@@ -4,6 +4,7 @@ window.onload = function() {
     changeColor("fr", "FF0000");
     changeColor("se", "FF0000");
     changeColor("pl", "FF0000");
+    console.log("werkt")
 };
 
 /* changeColor takes a path ID and a color (hex value)
