@@ -8,9 +8,39 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
 <script src="/datamaps.world.min.js"></script>
+<script src="/colorbrewer.js"></script>
 
-<div id="worldMap"></div>
-<div id="graph"></div>
+<div id="title">The KNMI Weather dataset in 2008.</div>
+
+<div id="contentwrapper">
+    <div id="textWrapper">
+        <div id="text1" class="textdiv">Data: <br> All values like temperature per country. <br><br>
+                                        Stations: <br> Every weatherstation sorted by country. <br><br>
+        </div>
+        <div id="text2" class="textdiv">
+            <div id="left" class="textdiv1"></div>
+            <div id="right" class="textdiv1"></div>
+        </div>
+        <div id="text3" class="textdiv"><br><br>Click on a country to zoom in or to show a bar chart. </div>
+
+    </div>
+    <div id="tooltip"></div>
+
+    <div id="wrapper2">
+        <div id="menu1">
+            <div class="wrapper3">
+                <div id="data" class="round-button">DATA</div>
+                <div id="stations" class="round-button">STATIONS</div>
+            </div>
+        </div>
+        <div id="menu2">
+            <div class="wrapper3" id="wrapper4"></div>
+        </div>
+        <div id="worldMap"></div>
+        <div id="graph"></div>
+    </div>
+</div>
+
 <script src="d3map.js"></script>
 </body>
 </html>
